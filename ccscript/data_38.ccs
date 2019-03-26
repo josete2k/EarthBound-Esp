@@ -1,0 +1,484 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc7f71e:
+    "@El Chico Manzana estaba perdido deambulando por ah[C2]." next
+	"@As[C2] que pens[C1] en tra[C1]rmelo." next
+    "@Ya hace tiempo de eso...{pause(20)} [B8]Quieres un poco de t[C1]? " next
+    "@Oh,{pause(15)} veo que est[C0]s ocupado." next
+    "@Todo se complica.{pause(20)} Cu[C2]date...{wait}{set(flag 668)}" eob
+
+l_0xc7f7a5:
+    "[06 9C 02 {e(l_0xc7f71e)}]@No s[C1] qu[C1] va a pasar pero tengo un mal presentimiento." next
+    "@Voy a quedarme un rato a ayudar a los Srs. Saturn." next
+    "@Es importante que un hombre disfrute con su deber." end
+
+l_0xc7f813:
+    "@[B9]Incre[C2]ble!{pause(20)}" linebreak
+    "  [B9]Excelente!" next
+    "@No s[C1] bien por qu[C1], [B9]pero felicidades por ese trabajo tan bien hecho!" next
+    "@Si alguna vez nos volvemos a encontrar me gustar[C2]a invitarte a tomar algo." next
+    "@[B9]Tambi[C1]n podr[C2]amos ir al karaoke!" end
+
+l_0xc7f8ab:
+    "{font_saturn}@(Fuentes" linebreak
+    "  temales..." linebreak
+    "  Descansa aqu[B2].){wait}{font_normal}" eob
+
+l_0xc7f8c7:
+    "{font_saturn}@Feliz." linebreak
+    "  Boing." next
+    "@M[B0]s feliz." linebreak
+    "  Ding" linebreak
+    "  ding." next
+    "@Mucho m[B0]s" linebreak
+    "  Feliz." linebreak
+    "  Boo boo." next
+    "@Gran gran" linebreak
+    "  feliz." linebreak
+    "  [B9]Zooooom!{wait}{font_normal}" eob
+
+l_0xc7f921:
+    "{font_saturn}@Estaba asustado." next
+    "@Ahora bien-o." linebreak
+    "  Yo fuerte." next
+    "@[B9]Boing!{font_normal}" end
+
+l_0xc7f949:
+    "{window_open(1)}@Nuestros caminos se separan aqu[C2]." next
+    "@Debo regresar a Dalaam y usar mi experiencia para ayudar a mi pa[C2]s." next
+    "@[1C 01 08],{pause(15)}" linebreak
+    "  [1C 01 1E],{pause(20)}" linebreak
+    "  [1C 01 34]..." next
+    "@D[C1]jadme que os ense[C7]e un poder asombroso antes de irme.{pause(20)}" next
+    "@Aprend[C2] este poder cuando era un ni[C7]o." next
+    "@[B9]PSI Despedida! [B9]Ahora![03]{window_closeall}{set(flag 637)}" eob
+
+l_0xc7f9f8:
+    "{window_open(1)}@[1C 01 1E],{pause(20)}" linebreak
+    "  [1C 01 08]..." next
+    "@Ha sido maravilloso conoceros.{pause(20)} De verdad." next
+    "@Me alegro de haber podido demostrar algunas de las teor[C2]as que tanto he estudiado." next
+    "@Es genial." next
+    "  ...{pause(60)}" linebreak
+    "@S[C2]..." next
+    "@Puede..." next
+    "@Si alg[C4]n d[C2]a os cas[C0]is yo os podr[C2]a arreglar los aparatos electr[C3]nicos." next
+    "  ...{pause(60)}" linebreak
+    "@Voy a quedarme aqu[C2] para aprender m[C0]s del Dr. Andonuts." next
+    "@Digoooo,{pause(15)} de mi pap[C0]." next
+    "@As[C2] que... por ahora parece que esto es un adi[C3]s,{pause(20)} amigos m[C2]os.{wait}{window_closeall}" eob
+
+l_0xc7fb3e:
+    "@Ha sido divertido estar con vosotros." end
+
+l_0xc7fb56:
+    "{window_open(1)}@[1C 01 08], [B8]me acompa[C7]as a casa?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc7fb75:
+    "[19 02]No" eob
+
+l_0xc7fb7a:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc7fba1)} {e(l_0xc7fb89)}]" goto(l_0xc7fb89)
+
+l_0xc7fb89:
+    "@Entonces,{pause(15)} [B9]yo te acompa[C7]ar[C1] a ti!{wait}" linebreak
+    "{window_closeall}" eob
+
+l_0xc7fba1:
+    "@Os echar[C1] de menos,{pause(5)} pero{pause(15)} debo volver a ser una ni[C7]a normal..." next
+    "@Bueno,{pause(15)} debo irme...{wait}{window_closeall}" eob
+
+l_0xc7fbec:
+    "[1F 67 02]" call(l_0xc7fc3e) "[19 22 01 01 02 00]{swap}{store_registers}{result_is(4)}[1B 03 {e(l_0xc7fc32)}]{load_registers}{result_is(5)}[1B 03 {e(l_0xc7fc32)}]{load_registers}{result_is(6)}[1B 03 {e(l_0xc7fc26)}][1F 15 02 00 37 02 01]" goto(l_0xc7fd06)
+
+l_0xc7fc26:
+    "[1F 15 02 00 38 02 01]" goto(l_0xc7fd06)
+
+l_0xc7fc32:
+    "[1F 15 02 00 39 02 01]" goto(l_0xc7fd06)
+
+l_0xc7fc3e:
+    "[1F E5 FF]{pause(30)}[19 22 01 01 02 00][1F 13 01 00][19 22 02 01 01 00][1F 13 02 00]{pause(30)}{window_open(1)}@[1C 01 08]..." linebreak
+    " Gracias por acompa[C7]arme a casa." next
+    "  ...{pause(60)}" linebreak
+    "@Quer[C2]a decirte algo pero lo he olvidado." next
+    "@Estoy segura de que lo recordar[C1] cuando te vuelva a ver." next
+    "@Bueno,{pause(15)} supongo que ha llegado el momento..." next
+    "@Adi[C3]s." next
+    "@Ohhh...{pause(20)}" linebreak
+    " ...Hasta pronto" next
+    "@Nos vemos." next
+    "@Adi[C3]s.{wait}{window_closeall}[1F EB 02 06]" eob
+
+l_0xc7fd06:
+    "[1F 61][1F E7 02 00][1F 13 01 01]{pause(60)}[1F EA 02 00][1F 61][1F 12 02]{set(flag 638)}[1F E8 FF]" eob
+
+l_0xc7fd22:
+    "[19 22 01 01 02 00][1F 13 01 00][19 22 02 01 01 00][1F 13 02 00]{pause(30)}{window_open(1)}@Deber[C2]a ir a casa.{pause(20)} No puedo estar rondando por aqu[C2] y all[C0]." next
+    "@[B8]No crees?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc7fd75:
+    "[19 02]No" eob
+
+l_0xc7fd7a:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc7fd8e)} {e(l_0xc7fdd6)}]" goto(l_0xc7fdd6)
+
+l_0xc7fd8e:
+    "@Muy bien.{pause(20)} Volvamos al Preescolar Polestar en Twoson..." next
+    "@Recuerdas d[C3]nde est[C0], [B8]verdad?" next
+    "@Vamos...{wait}{window_closeall}" eob
+
+l_0xc7fdd6:
+    "@Bueno... Bien.{pause(20)}" linebreak
+    "  La verdad es que me gustar[C2]a estar contigo un poquito m[C0]s.{wait}{window_closeall}" eob
+
+l_0xc7fe02:
+    "{font_saturn}@[B8]T[B4] estar" linebreak
+    "  desgastado?" next
+    "@Ahhh..." linebreak
+    "  [B9]Boing!{isset(flag 629)}[1B 02 {e(l_0xc7fe2f)}]{isset(flag 214)}[1B 02 {e(l_0xc7fe31)}]" goto(l_0xc7fe2f)
+
+l_0xc7fe2f:
+    end
+
+l_0xc7fe31:
+    next
+    "@[B9]Buuurp!" linebreak
+    "  [B9]V[C3]mito!" next
+    "@[B9]Apestoso!" linebreak
+    "  [B9]Peeee-" linebreak
+    "  yeuuu!{wait}{font_normal}" eob
+
+l_0xc7fe61:
+    "{font_saturn}[06 49 00 {e(l_0xc7fe96)}]@[B9]Escalera" linebreak
+    "  m[B0]s larga!" next
+    "@[B9]Poder" linebreak
+    "  ir a fuentes" linebreak
+    "  termales!{wait}{font_normal}" eob
+
+l_0xc7fe96:
+    "@Campana suena" linebreak
+    "  ding, ding." linebreak
+	"  [B9]Boing!{wait}{font_normal}" eob
+
+l_0xc7feb1:
+    "[1F E6 E6 02][19 10 01]{rtoarg}{window_open(1)}[06 75 02 {e(l_0xc7ff06)}]@(Has disfrutado plenamente de las fuentes termales.{pause(20)} Te hacen sentir renacer.){wait}" goto(l_0xc7fefa)
+
+l_0xc7fefa:
+    call(data_49.l_0xc9162c) "{window_closeall}[1F E9 E6 02]" eob
+
+l_0xc7ff06:
+    "@(Te has dado un ba[C7]o realmente purificador.){wait}{unset(flag 629)}" goto(l_0xc7fefa)
+
+l_0xc80000:
+    call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc8045b)}][06 71 00 {e(l_0xc8037f)}][06 7E 02 {e(l_0xc80027)}][06 0C 00 {e(l_0xc803ac)}][06 0D 00 {e(l_0xc803ac)}]" goto(l_0xc80027)
+
+l_0xc80027:
+    "@[B9]Esta es la tienda de bicicletas{pause(5)} <Punk-Tura>!" next
+    "@Las bicicletas son muy divertidas y [C4]tiles..." next
+    "@Con ellas vas mucho m[C0]s r[C0]pido que caminando." next
+    "@Los ciclistas son muy populares." next
+    "@[B8]Quieres una bicicleta?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc800ac:
+    " [19 02]No" eob
+
+l_0xc800b2:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc800f5)} {e(l_0xc800c1)}]" goto(l_0xc800c1)
+
+l_0xc800c1:
+    "[1D 05 FF B0][1B 03 {e(l_0xc802e6)}][06 51 00 {e(l_0xc8034d)}]@Oh... no sabes montar en bici." next
+    "@Yo tampoco." end
+
+l_0xc800f5:
+    "[06 51 00 {e(l_0xc802b9)}]@Lo siento, no tenemos  bicicletas en venta.{pause(20)} S[C3]lo de alquiler." next
+    "@[B8]Quieres alquilar una?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc80140:
+    " [19 02]No" eob
+
+l_0xc80146:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc8015a)} {e(l_0xc800c1)}]" goto(l_0xc800c1)
+
+l_0xc8015a:
+    "@Me gusta tu estilo...{pause(15)} Tan directo." next
+    "@Mira,{pause(15)} te voy a dejar alquilar una bicicleta gratis." next
+    "[1D 03 FF][1B 02 {e(l_0xc80277)}][1D 0E 00 B0]" call(data_36.l_0xc7dccf) next
+    "{set(flag 81)}@Eso s[C2]...{pause(15)} Dos personas no pueden montar a la vez en una bici." next
+    "@[B9]Obviamente tres o cuatro personas en una bicicleta a[C4]n menos!" next
+    "@[B8]Sabes que no puedes montar en bici con algo sigui[C1]ndote?" next
+    "@Osos de peluche, por ejemplo..." next
+    "@Llevar un oso de peluche y montar es imposible." next
+    "@Y ni siquiera pienses en montar una bicicleta dentro de una cueva." end
+
+l_0xc80276:
+    eob
+
+l_0xc80277:
+    newline
+    "{sound(5)}@Tienes muchos objetos.{pause(20)} [B8]Por qu[C1] no te deshaces de algo y vuelves luego?" next
+    "@Yo s[C1] que la quieres ya{pause(15)} pero mis manos est[C0]n atadas..." end
+
+l_0xc802b9:
+    newline
+    "@[B8]No hab[C2]as pedido ya una bicicleta?{pause(20)} No tenemos m[C0]s bicicletas por el momento..." end
+
+l_0xc802e6:
+    newline
+    "[1D 01 FF B0]@[B8]Est[C0]s aqu[C2] para devolver tu bici?" next
+    "{set(flag 113)}{unset(flag 81)}@[B9]Mira lo bajo que est[C0] tu asiento!{pause(20)} Puaj,{pause(15)} debes tener piernas cortas." next
+    "@[B9]Ya s[C1]!{pause(20)} [B9]Te llamar[C1] patas cortas!{wait}{sound(118)}" eob
+
+l_0xc8034d:
+    newline
+    "@S[C2],{pause(10)} s[C2],{pause(5)} claro, claro.{pause(20)} Ya has pedido prestada una bicicleta." end
+
+l_0xc8037f:
+    "@[B9]Hey!{pause(15)} [B9]Patas cortas!" next
+    "[06 7E 02 {e(l_0xc80027)}][06 0D 00 {e(l_0xc803ac)}][06 0C 00 {e(l_0xc803ac)}]" goto(l_0xc80027)
+
+l_0xc803ac:
+    "{counter(1)}@[B8]Quieres montar en bici?" next
+    "@Est[C0] estrictamente prohibido montar dos personas en una bici...{pause(20)} No vas a poder.[03][1D 05 FF B0][1B 03 {e(l_0xc803f8)}]" end
+
+l_0xc803f8:
+    next
+    "@[B8]Est[C0]s aqu[C2] para devolver la bici?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc80416:
+    " [19 02]No" eob
+
+l_0xc8041c:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc802e6)} {e(l_0xc8042b)}]" goto(l_0xc8042b)
+
+l_0xc8042b:
+    "@Bueno,{pause(15)} no olvides devolverla...{pause(20)} Tendr[C0]s que hacerlo antes o despu[C1]s." end
+
+l_0xc8045b:
+    "@Ya sabes que dos personas no pueden montar en una sola bici.{pause(20)} Pero..." next
+    "@[B8]Sab[C2]as que no puedes montar en bici mientras llevas las cosas de un amigo inconsciente?" next
+    "@Llevar muchos objetos y montar por ah[C2] es imposible." end
+
+l_0xc804d1:
+    "[06 49 00 {e(l_0xc808bd)}][06 08 03 {e(l_0xc8054d)}][06 55 00 {e(l_0xc807bc)}][06 54 00 {e(l_0xc806bb)}][06 0D 00 {e(l_0xc80579)}]@Silba, silba por todas partes.{pause(10)}" linebreak
+    "  Me hace sonre[C2]r{pause(10)} todo el rato." next
+    "@Soy la madre de [1C 02 02]." goto(l_0xc80530)
+
+l_0xc80530:
+    "{pause(20)}  Estoy ocupada haci[C1]ndome cargo de estos ni[C7]os." next
+    goto(l_0xc8054d)
+
+l_0xc8054d:
+    "@No deber[C2]as preocuparte por [1C 02 02]." next
+    "@Ella tiene un [C0]ngel guardi[C0]n,{pause(15)} o eso parece." end
+
+l_0xc80579:
+    "{counter(2)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc80673)}]{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc80718)}]@[B9]Viva!{pause(5)} [B9]Lo sab[C2]a!{pause(20)} [1C 02 02], te has salvado." next
+    call(l_0xc806bb) linebreak
+    goto(l_0xc805ba)
+
+l_0xc805ba:
+    "@[1C 02 02], si vas a salir de viaje,{pause(15)} aseg[C4]rate de llevarte esto." next
+    "@[B9]Es un vendaje hecho con mis propias manos para el viaje!{pause(20)}" next
+	"@[B9]Ooohh!{pause(15)} [B9]Eso rima!" next
+    "@[B9]Ea, lo llamar[C1] <Vendaje de Viaje>!" next
+    "[1D 03 FF][1B 02 {e(l_0xc8082a)}][1D 0E 00 BC]" call(data_36.l_0xc7dccf) "{wait}{set(flag 84)}" newline
+    "@[B8]Ya conoces a Pap[C0]?" next
+    "@Lamenta haber sospechado del Sr. Everdred del Parque Ladr[C3]n.{wait}   " eob
+
+l_0xc80673:
+    "@[B8]Eres t[C4], [1C 02 02]?{pause(20)} Oh,{pause(15)} pensaba que ya hab[C2]a vuelto,{pause(15)} pero a[C4]n no..." next
+    "@Oh no, no estoy preocupado... Estoy bien." end
+
+l_0xc806bb:
+    "{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc807ac)}]@No lo entiendo pero s[C1] que el poder milagroso de [1C 02 02][03] y tu gran valent[C2]a os ha permitido hacer frente a cualquier desaf[C2]o." end
+
+l_0xc80718:
+    "@[B9]Vivaa!{pause(15)} [B9]Lo sab[C2]a!{pause(20)} Has vuelto sin problemas." next
+    "@[B8]Y [1C 02 01]?{pause(20)} [B8]No est[C0] contigo?" next
+    "@[1C 02 02],{pause(15)} tu madre conf[C2]a en la valent[C2]a de [1C 02 01] y en tu poder milagroso." next
+    "@La verdad es que estoy bastante preocupado." next
+    "@Pero os dejar[C1] continuar...  Es por una buena causa..." goto(l_0xc807ac)
+
+l_0xc807ac:
+    "[06 54 00 {e(l_0xc807ba)}]" next
+    goto(l_0xc805ba)
+
+l_0xc807ba:
+    end
+
+l_0xc807bc:
+    "[06 54 00 {e(l_0xc8087a)}]@[1C 02 02],{pause(15)} si te vas,{pause(15)} aseg[C4]rate de llevarte esto." next
+    "@[B9]Es vendaje hecho para tu viaje!{pause(20)} [B9]Qu[C1] bien rima eso!" next
+    "[1D 03 FF][1B 02 {e(l_0xc8082a)}][1D 0E 00 BC]" call(data_36.l_0xc7dccf) "{wait}{set(flag 84)}" eob
+
+l_0xc8082a:
+    newline
+    "@[B8]Qu[C1] es qu[C1]?{pause(15)} Ser un poco impaciente..." next
+    "@Necesitar vender,{pause(15)} usar o tirar algo.{pause(20)} Despu[C1]s de eso,{pause(15)} podr[C1] darte esto." end
+
+l_0xc8087a:
+    "[19 10 01]{rtoarg}@Bueno, aqu[C2] tienes,{pause(15)} [1C 02 01]." next
+    "@Te har[C1] algo de [1C 01 04],{pause(20)} aunque no soy muy buena cocinera.[03]" call(data_49.l_0xc915d6) call(data_49.l_0xc91582) eob
+
+l_0xc808bd:
+    "@Has perdido algo de peso desde la [C4]ltima vez que te v[C2], [1C 02 01]." next
+    "@[B9][1C 02 01], ha debido ser una gran aventura!{pause(20)} Me alegro de que vivas tan cerca de nosotros." next
+    "@[B8]Por qu[C1] no vienes m[C0]s a menudo?{pause(20)} Estoy intentado mejorar mi [1C 01 04]." end
+
+l_0xc80939:
+    "[06 0C 00 {e(l_0xc8097b)}][06 0D 00 {e(l_0xc8097b)}]@[B9][1C 02 02] no est[C0] aqu[C2]!" next
+    "@Ella se ha ido de repente{pause(15)} y no s[C1] a d[C3]nde." end
+
+l_0xc8097b:
+    "{counter(2)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc80997)}]@(Est[C0] sonriendo)." end
+
+l_0xc80997:
+    "@[B9]Oh, [1C 02 02]!{pause(20)} Uh... lo siento,{pause(15)} cre[C2]a que eras [1C 02 02]." end
+
+l_0xc809ba:
+    "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc80a47)}][06 0C 00 {e(l_0xc809fc)}][06 0D 00 {e(l_0xc809fc)}]@Bueno,{pause(15)} yo quer[C2]a jugar con [1C 02 02],{pause(15)} pero se ha ido..." end
+
+l_0xc809fc:
+    "[06 08 03 {e(l_0xc80a2c)}]{counter(2)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc80a2c)}]@Gracias por salvar a [1C 02 02].{pause(20)} Eres mi h[C1]roe." end
+
+l_0xc80a2c:
+    "@[B9]Ayuda [1C 02 02]!{pause(20)} [B9]Deprisa, deprisa!" end
+
+l_0xc80a47:
+    "@[1C 02 02],{pause(15)} estaba preocupado por ti." next
+    "@No voy a preguntar de d[C3]nde sal[C2]s vosotros..." end
+
+l_0xc80a7e:
+    "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc80b4b)}]{counter(2)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc80b02)}]@[1C 02 02] es como una madre para m[C2]." next
+    "@Es probable que no entiendas mis sentimientos." next
+    "@Tengo carita de ni[C7]o{pause(15)} pero mentalidad de adulto." next
+    "@Disculpe usted." end
+
+l_0xc80b02:
+    "@[B8][1C 02 02]?" next
+    "@Sabes,{pause(15)} por un instante me ha parecido verla de reojo." next
+    "@Igual ha sido s[C3]lo un sue[C7]o..." end
+
+l_0xc80b4b:
+    "@[1C 02 02],{pause(15)} se te ve bien y sana.{pause(20)} [B9]No pod[C2]as llegar en mejor momento!" end
+
+l_0xc80b7f:
+    "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc80bc6)}]{counter(2)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc80be4)}]@Cuando crezca,{pause(15)} yo quiero ser" linebreak
+    "  ju{pause(5)}u{pause(5)}u{pause(5)}u{pause(5)}sto como [1C 02 02]." end
+
+l_0xc80bc6:
+    "[06 D3 00 {e(l_0xc80bf2)}]@Te has ara[C7]ado la pierna,{pause(10)} huh." end
+
+l_0xc80be4:
+    "@[B8]Qu[C1] le ha pasado a [1C 02 02]?" end
+
+l_0xc80bf2:
+    "@Cuando sea mayor,{pause(15)} voy a ser una [1C 02 02] adulta." next
+    "@Y despu[C1]s{pause(20)} ser[C1] una [1C 02 02] viejita." end
+
+l_0xc80c31:
+    "[06 49 00 {e(l_0xc81087)}][06 55 00 {e(l_0xc80e61)}][06 0C 00 {e(data_33.l_0xc798bf)}][06 0D 00 {e(data_33.l_0xc7970b)}][06 76 00 {e(l_0xc80e03)}][06 42 01 {e(l_0xc80dd8)}]@Entonces,{pause(15)} [B8]quieres ver a [1C 02 02]?" next
+    "@Aqu[C2] viene mucha gente a presenciar sus milagrosos poderes." next
+    "@Vaya sanguijuelas." next
+    "@[B8]Eres de alguna cadena de TV?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc80cbf:
+    " [19 02]No" eob
+
+l_0xc80cc5:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc80dab)} {e(l_0xc80cd4)}]" goto(l_0xc80cd4)
+
+l_0xc80cd4:
+    "@El conocerte o no conocerte s[C3]lo lo decide [1C 02 02]." next
+    "@[1C 02 02] ha dicho que s[C3]lo recibir[C0] a un ni[C7]o llamado [1C 02 01]." next
+    "@[B9]Y t[C4] eres [1C 02 01]!" next
+    "@Eres quien aparec[C2]a en el sue[C7]o de [1C 02 02]." next
+    "@[B9]T[C4] salvar[C0]s al mundo!" next
+    "@Voy a buscar a [1C 02 02].[03]" call(data_33.l_0xc7903b) "@Parece que ella no est[C0] aqu[C2]." next
+    "@[B8]A d[C3]nde demonios habr[C0] ido?{pause(20)} Lo siento...{pause(20)} [B8]Puedes volver m[C0]s tarde?{wait}{set(flag 322)}{set(flag 635)}" eob
+
+l_0xc80dab:
+    "@Por favor vete." next
+    "@Mi hija no quiere hablar con peleles de los medios como t[C4]." end
+
+l_0xc80dd8:
+    "@[B8]A d[C3]nde se habr[C0] ido?" next
+    "@Lo siento...{pause(15)} [B8]Puedes volver m[C0]s tarde?" end
+
+l_0xc80e03:
+    "{counter(1)}[19 11 02]{rtoarg}@[1C 03 00]{pause(5)} [1C 03 00]{pause(5)} [1C 02 02] a[C4]n no ha llegado." next
+    "@Quiz[C0] Everdred del Parque Ladr[C3]n sepa algo." next
+    "@[B9]Cielos!{pause(20)} Ahora s[C2] que estoy preocupado.{wait}{set(flag 321)}" eob
+
+l_0xc80e61:
+    "[06 08 03 {e(l_0xc80f1c)}]{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc80f94)}]{counter(2)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc80f1c)}]@Los dos est[C0]is bien...{pause(15)} [B9]Qu[C1] alivio!" next
+    "@[B8]Por qu[C1] no descansas aqu[C2]?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc80eae:
+    " [19 02]No" eob
+
+l_0xc80eb4:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xc80ef3)} {e(l_0xc80ec3)}]" goto(l_0xc80ec3)
+
+l_0xc80ec3:
+    "@Vamos,{pause(15)} [B8]Para un momento y rel[C0]{pause(5)}a{pause(5)}a{pause(5)}a{pause(5)}jate." end
+
+l_0xc80ef3:
+    "@[1C 02 01], tu dormir[C0]s en el sof[C0] del despacho...[03]" call(data_49.l_0xc91693) "[1F 21 22]{unset(flag 383)}" newline
+    eob
+
+l_0xc80f1c:
+    "{counter(1)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc81027)}]@[B9]Hey! [B9]Pasa!" next
+    "@No, no necesito escuchar lo que ha sucedido...{pause(20)} [1C 02 02] estar[C0] bien." next
+    "@Mejor descansar por ahora." next
+    "@Ya sabes d[C3]nde est[C0] el sof[C0] del despacho...[03]" call(data_49.l_0xc91693) "[1F 21 22]{unset(flag 383)}" eob
+
+l_0xc80f94:
+    "{counter(2)}" call(data_36.l_0xc7dc7f) "[1B 03 {e(l_0xc81027)}]@[B9]Oh [1C 02 02]!" next
+    "@[B9]Incluso una machorra como t[C4] piensa a veces en su pap[C0]!" next
+    "@Deber[C2]as descansar,{pause(15)} si[C1]ntete como en casa." next
+    "@[B8]Qu[C1] te parece si compartimos un pedazo de pastel como sol[C2]amos hacer? [B9]Ja ja ja![03]" call(data_49.l_0xc91693) "[1F 21 22]{unset(flag 383)}" eob
+
+l_0xc81027:
+    "@Hmm... entiendo." next
+    "@[B8]As[C2] que eres amigo de [1C 02 02]?" next
+    "@M[C2]rame a los ojos...{pause(20)} S[C2], est[C0]s diciendo la verdad." next
+    "@[B8]Te gustar[C2]a dormir un poco?[03]" call(data_49.l_0xc91693) "[1F 21 22]{unset(flag 383)}" eob
+
+l_0xc81087:
+    "@Eres muy fuerte, jovencito.{pause(20)} Mi opini[C3]n sobre ti ha cambiado." next
+    "@Quiz[C0] deber[C2]as seguir saliendo con [1C 02 02]." next
+    "@Tr[C0]tala bien..." next
+    "@Ven a vernos cuando quieras." next
+    "@Deber[C2]as pasar alguna noche tambi[C1]n... Puedes utilizar mi habitaci[C3]n." end
+
+l_0xc81122:
+    "[06 49 00 {e(data_39.l_0xc8159f)}][06 75 00 {e(data_39.l_0xc81318)}][06 55 01 {e(data_39.l_0xc814b9)}]@Saludos.{pause(20)} Soy el Chico Naranja, el inventor." next
+    "@[B8]Has o[C2]do hablar de m[C2]?{pause(20)} Tengo una reputaci[C3]n bastante dudosa." next
+    "@Tengo muchos inventos en desarrollo, pero no tengo dinero para seguir." next
+    "@Soy b[C0]sicamente una persona despreocupada,{pause(15)} as[C2] que no me estreso." next
+    "@Estoy trabajando en esta m[C0]quina que puede ayudarte en el Valle de los Muertos Agradecidos." next
+    "@Espero que est[C1] lista pronto..." next
+    "@[B8]Qu[C1]?{pause(60)} [B8]Vas a ayudarme a financiar el proyecto?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xc81248:
+    " [19 02]No" eob
+
+l_0xc8124e:
+    "[1C 07 02][11]{clearline}[09 02 {e(data_39.l_0xc81286)} {e(data_39.l_0xc8125d)}]" goto(data_39.l_0xc8125d)

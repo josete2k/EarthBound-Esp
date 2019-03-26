@@ -1,0 +1,163 @@
+// Routines for changing different words in the game to match number/gender
+
+command e(label) "{long label}"
+
+
+/* Labels for Party Members number check */
+verb_party:
+	"[1D 19 02][1B 02 {e(verb_multi)}]gana" eob
+	
+verb_multi:
+	"ganan" eob
+
+run_party:
+	"[1D 19 02][1B 02 {e(run_multi)}]intenta" eob
+	
+run_multi:
+	"intentan" eob
+
+fail_party:
+	"[1D 19 02][1B 02 {e(fail_multi)}]puede" eob
+	
+fail_multi:
+	"pueden" eob
+
+success_party:
+	"[1D 19 02][1B 02 {e(success_multi)}]logra" eob
+	
+success_multi:
+	"logran" eob
+	
+carry_party:
+	"[1D 19 02][1B 02 {e(carry_multi)}]controla" eob
+	
+carry_multi:
+	"controlan" eob
+	
+smoke_party:
+	"[1D 19 02][1B 02 {e(smoke_multi)}]viene" eob
+	
+smoke_multi:
+	"vienen" eob
+	
+have_party:
+	"[1D 19 02][1B 02 {e(have_multi)}]obtiene" eob
+	
+have_multi:
+	"obtienen" eob
+	
+be_party:
+	"[1D 19 02][1B 02 {e(be_multi)}]eres" eob //sei
+	
+be_multi:
+	"son" eob //siete
+	
+ticket_party:
+	"[1D 19 02][1B 02 {e(ticket_multi)}]ha" eob
+	
+ticket_multi:
+	"han" eob
+	
+friends_party:
+	"[1D 19 02][1B 02 {e(friends_multi)}]amigo" eob //amico
+	
+friends_multi:
+	"amigos" eob //amici
+	
+deja_party:
+	"[1D 19 02][1B 02 {e(deja_multi)}]abandona" eob
+	
+deja_multi:
+	"abandonan" eob
+
+querer_party:
+	"[1D 19 02][1B 02 {e(querer_multi)}]Quieres deshacerte" eob
+	
+querer_multi:
+	"Quer[C1]is deshaceros" eob
+	
+vas_party:
+	"[1D 19 02][1B 02 {e(vas_multi)}]Vas" eob
+	
+vas_multi:
+	"Vais" eob
+
+quereis_party:
+	"[1D 19 02][1B 02 {e(quereis_multi)}]quieres" eob
+	
+quereis_multi:
+	"quer[C1]is" eob
+
+capquereis_party:
+	"[1D 19 02][1B 02 {e(capquereis_multi)}]Quieres" eob
+	
+capquereis_multi:
+	"Quer[C1]is" eob
+	
+/*perdido_party:
+	"[1D 19 02][1B 02 {e(perdido_multi)}]ha" eob
+	
+perdido_multi:
+	"han" eob*/	
+
+/* Labels for Enemy Party Members number check */
+
+trap_party:
+	"[1C 14 02][09 03 {e(trap_single)} {e(trap_multi1)} {e(trap_multi2)}]atrapan!" eob
+	
+trap_single:
+	"atrapa!" eob
+
+trap_multi1:
+	"atrapan!" eob
+
+trap_multi2:
+	"atrapan!" eob
+
+come_party:
+	"[1C 14 02][09 03 {e(come_single)} {e(come_multi1)} {e(come_multi2)}]vienen" eob
+
+come_single:
+	"viene" eob
+
+come_multi1:
+	"vienen" eob
+
+come_multi2:
+	"vienen" eob
+
+block_party:
+	"[1C 14 02][09 03 {e(block_single)} {e(block_multi1)} {e(block_multi2)}]bloquean" eob
+
+block_single:
+	"bloquea" eob
+
+block_multi1:
+	"bloquean" eob
+
+block_multi2:
+	"bloquean" eob
+
+attack_party:
+	"[1C 14 02][09 03 {e(attack_single)} {e(attack_multi1)} {e(attack_multi2)}]atacan!" eob
+
+attack_single:
+	"ataca!" eob
+
+attack_multi1:
+	"atacan!" eob
+
+attack_multi2:
+	"atacan!" eob
+	
+atacan_party:
+	"[1C 14 02][09 03 {e(atacan_single)} {e(atacan_multi1)} {e(atacan_multi2)}]atacan" eob
+
+atacan_single:
+	"ataca" eob
+
+atacan_multi1:
+	"atacan" eob
+
+atacan_multi2:
+	"atacan" eob	

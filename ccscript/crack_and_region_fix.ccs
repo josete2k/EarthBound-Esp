@@ -1,0 +1,12 @@
+/* Crack */
+
+ROM[0xC0281D] = "[EA EA]"
+ROM[0xC083A2] = "[80]"
+ROM[0xC083AD] = "[80]"
+ROM[0xC0A12D] = "[80]"
+ROM[0xC1FFE7] = "[EA A9 00 00]"
+ROM[0xC3FDD6] = "[EA A9 00 00 80]"
+
+/* Region FIX */
+
+ROM[0xC0A141] = "[80]"

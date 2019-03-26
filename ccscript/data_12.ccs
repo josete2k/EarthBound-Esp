@@ -1,0 +1,402 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import ebs
+import Item_Articles
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc5c57b:
+    "@[1C 02 00] ya tiene muchas cosas." next
+    "@[B8]Puede alguien m[C0]s llevarlo?" linebreak
+    eob
+
+l_0xc5c59e:
+    "@[B9]Hola! [B9]Bienvenido a mi humilde tienda!" next
+    "@[B8]Te apetece alguno de nuestros famosos manjares de Scaraba?" next
+    eob
+
+l_0xc5c5dd:
+    "@Oh, por favor encuentra una forma de volver." end
+
+l_0xc5c5f3:
+    "@El sol est[C0] implacable hoy, as[C2] que por favor cu[C2]date." end
+
+l_0xc5c61a:
+    "@Contamos con variedad de cosas. [B8]Qu[C1] querr[C2]as?[03]" eob
+
+l_0xc5c63a:
+    "@[B9]Aqu[C2] tienes tu" linebreak
+    "  [1C 05 00]!" next
+    eob
+
+l_0xc5c64d:
+    "@[B8]Qui[C1]n va a comprar esto?[03]" eob
+
+l_0xc5c65c:
+    "@[B8]Oh? [B8]No vas a comprar despu[C1]s de todo? [B8]Correcto?" next
+    eob
+
+l_0xc5c67a:
+    "@[B9]Oh! No tienes suficiente dinero." next
+    eob
+
+l_0xc5c68a:
+    "@[B9]Por todos los cielos! Ya llevas muchas cosas." next
+    "@Vende o tira algo y vuelve en otra ocasi[C3]n." end
+
+l_0xc5c6c3:
+    "@[B9]Muchas, muchas gracias!" next
+    eob
+
+l_0xc5c6d2:
+    "@[B9]Gracias por comprar aqu[C2]!" next
+    eob
+
+l_0xc5c6e3:
+    "@[B8]Quieres comprar algo m[C0]s?" linebreak
+    eob
+
+l_0xc5c6ec:
+    "@[B9]Por todos los cielos!" linebreak
+    "  [B9][1C 02 00] ya tiene muchas cosas!" next
+    "@[B8]Puede alguien m[C0]s llevarlo?" linebreak
+    eob
+
+l_0xc5c71f:
+    "@[B9]Tu paseo por el desierto te habr[C0] dejado hambriento y sediento!" next
+    eob
+
+l_0xc5c74c:
+    "@Muchas gracias." end
+
+l_0xc5c755:
+    "@[B8]No quieres comprar nada? " end
+
+l_0xc5c765:
+    "@[B8]Qu[C1] quieres?" next
+    eob
+
+l_0xc5c76f:
+    "@[B8]Quieres {asmcall_long(PrintLowIndefArticle_ASM)}[1C 05 00]?" next
+    eob
+
+l_0xc5c77e:
+    "@[B8]Para qui[C1]n es?[03]" eob
+
+l_0xc5c78a:
+    "@[B9]Vaya! [B8]Cambias de idea y no quieres nada despu[C1]s de todo?" next
+    eob
+
+l_0xc5c7ae:
+    "@No tienes suficiente dinero." next
+    eob
+
+l_0xc5c7b9:
+    "@Ya llevas demasiadas cosas." next
+    "@Vende algo, o s[C3]lo tira algo y entonces vuelve a verme." end
+
+l_0xc5c7f1:
+    "@Muchas gracias." next
+    eob
+
+l_0xc5c7fb:
+    "@Muchas gracias." next
+    eob
+
+l_0xc5c804:
+    "@[B8]Necesitas algo m[C0]s?" linebreak
+	""linebreak
+    eob
+
+l_0xc5c80d:
+    "@Parece que [1C 02 00] ya tiene demasiadas cosas." next
+    "@No creo que pueda llevar ni una m[C0]s." next
+    "@[B8]Puede alguien m[C0]s llevarlo?" linebreak
+    " " eob
+
+l_0xc5c845:
+    "@Servimos agua, gachas de arroz y ese tipo de cosas." next
+    eob
+
+l_0xc5c86c:
+    "@Adi[C3]s." end
+
+l_0xc5c876:
+    "@Adi[C3]s. Cu[C2]date por favor." end
+
+l_0xc5c88a:
+    "@[B8]Qu[C1] querr[C2]as?[03]" eob
+
+l_0xc5c896:
+    "@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" next
+    eob
+
+l_0xc5c89e:
+    "@[B8]Para qui[C1]n es?[03]" eob
+
+l_0xc5c8aa:
+    "@[B8]No est[C0]s interesado en nuestro men[C4]? Ya veo." next
+    eob
+
+l_0xc5c8c8:
+    "@No tienes suficiente dinero." next
+    eob
+
+l_0xc5c8d8:
+    "@Ya llevas demasiadas cosas." next
+    "@Vende algo, t[C2]ralo o s[C3]lo d[C1]jalo en alg[C4]n lugar y vuelve en otra ocasi[C3]n." end
+
+l_0xc5c916:
+    "@Muchas gracias." next
+    eob
+
+l_0xc5c920:
+    "@Muchas gracias." next
+    eob
+
+l_0xc5c92a:
+    "@[B8]Quieres comprar algo m[C0]s?" linebreak
+    eob
+
+l_0xc5c933:
+    "@Parece que [1C 02 00] ya tiene demasiadas cosas." next
+    "@No creo que pueda llevar ni una m[C0]s." next
+    "@[B8]Puede alguien m[C0]s llevarlo?" linebreak
+    eob
+
+l_0xc5c96a:
+    "@Hola, [B8]c[C3]mo est[C0]s?{pause(20)}" linebreak
+    "@Ostras, yo dir[C2]a que no tan bien." next
+    eob
+
+l_0xc5c99a:
+    "@[B9]Nos vemos!" end
+
+l_0xc5c9a4:
+    "@[B9]Nos vemos!" end
+
+l_0xc5c9ae:
+    "@[B8]Necesitas algo?[03]" eob
+
+l_0xc5c9b7:
+    "@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" next
+    eob
+
+l_0xc5c9c2:
+    "@[B8]Para qui[C1]n es?[03]" eob
+
+l_0xc5c9ce:
+    "@[B8]Despu[C1]s de todo no lo quieres ?" next
+    eob
+
+l_0xc5c9e7:
+    "@No tienes suficiente dinero." next
+    eob
+
+l_0xc5c9f2:
+    "@Ya llevas demasiadas cosas." end
+
+l_0xc5ca04:
+    "@Gracias." next
+    eob
+
+l_0xc5ca0a:
+    "@Gracias." next
+    eob
+
+l_0xc5ca10:
+    "@[B8]vas a comprar algo m[C0]s?" linebreak
+    eob
+
+l_0xc5ca1e:
+    "@Parece que [1C 02 00] ya tiene demasiadas cosas." next
+    "@No creo que pueda llevar ni una m[C0]s." next
+    "@[B8]Puede alguien m[C0]s llevarlo?" linebreak
+    eob
+
+l_0xc5ca56:
+    "@Ya no puedo hacer Tartas M[C0]gicas..." next
+    "@Pero no importa porque ahora estoy vendiendo Pastelillos M[C0]gicos." next
+    "@[B9]Saben mucho mejor que las Tartas M[C0]gicas!" next
+    eob
+
+l_0xc5cab4:
+    "@[B9]Me recuerdas lo mucho que me gusta este trabajo!" end
+
+l_0xc5cad0:
+    "@[B9]Me recuerdas lo mucho que me gusta este trabajo!" end
+
+l_0xc5caec:
+    "@S[C3]lo tengo esto..." next
+    eob
+
+l_0xc5cafe:
+    "@[B8]Vas a comprar [1C 05 00]?" next
+    eob
+
+l_0xc5cb12:
+    "@[B8]Para qui[C1]n es?[03]" eob
+
+l_0xc5cb1e:
+    "@Qu[C1] pena." end
+
+l_0xc5cb29:
+    "@No tienes suficiente dinero." end
+
+l_0xc5cb33:
+    "@Llevas muchas cosas." next
+    "@Vuelve cuando reduzcas el n[C4]mero de cosas que lleves." end
+
+l_0xc5cb67:
+    "@Muchas gracias." next
+    eob
+
+l_0xc5cb71:
+    "@Gracias de nuevo." next
+    eob
+
+l_0xc5cb7b:
+    "@[B8]Te gustar[C2]a comprar algo m[C0]s?" linebreak
+    eob
+
+l_0xc5cb88:
+    "@Parece que [1C 02 00] tiene demasiadas cosas ya." next
+    "@No creo que pueda llevar ni una m[C0]s." next
+    "@[B8]Puede alguien m[C0]s llevarlo?" linebreak
+    eob
+
+l_0xc5cbc0:
+    "@Vendo agua para aquellos que est[C0]n sedientos." next
+    eob
+
+l_0xc5cbdc:
+    "@El precio de las cosas est[C0] determinado por la relaci[C3]n entre oferta y demanda." next
+    "@[B9]Creo que sois bastante listos para poder entender esta teor[C2]a!" end
+
+l_0xc5cc35:
+    "@[B9]Morir[C0]s de deshidrataci[C3]n! [B9]Te lo advierto!" end
+
+l_0xc5cc53:
+    "@[B9]Es cara!" next
+    eob
+
+l_0xc5cc63:
+    "@[B8]Te lo has pensado mejor y quieres algo de [1C 05 00]?" next
+    eob
+
+l_0xc5cc83:
+    "@[B8]Qui[C1]n va a llevarlo?[03]" eob
+
+l_0xc5cc8f:
+    "@[B9]Morir[C0]s de deshidrataci[C3]n! [B9]Te lo advierto!" end
+
+l_0xc5ccae:
+    "@No creo que tengas suficiente dinero." end
+
+l_0xc5ccbd:
+    "@No puedes llevar m[C0]s." end
+
+l_0xc5ccca:
+    "@[B9]Buena compra!" next
+    eob
+
+l_0xc5ccda:
+    "@[B9]Buena compra!" next
+    eob
+
+l_0xc5ccea:
+    "@[B8]Quieres comprar un poco m[C0]s?" linebreak
+    eob
+
+l_0xc5ccf5:
+    "@[1C 02 00] ya est[C0] llevando muchas cosas." next
+    "@[B8]Puede alguien m[C0]s llevarlo?" linebreak
+    eob
+
+l_0xc5cd18:
+    "@[B8]Te apetecen unos pl[C0]tanos?" next
+    eob
+
+l_0xc5cd29:
+    "@Gracias." end
+
+l_0xc5cd2f:
+    "@Cuando quieras comer pl[C0]tanos...{pause(15)} [B9]Aqu[C2] estar[C1]!" end
+
+l_0xc5cd51:
+    "@[B9]Hey ni[C7]o!" next
+    "@[B8]Quieres comprar?" next
+    eob
+
+l_0xc5cd64:
+    "@Quieres {asmcall_long(PrintLowIndefArticle_ASM)}[1C 05 00]?" next
+    eob
+
+l_0xc5cd73:
+    "@[B8]Para qui[C1]n es?[03]" eob
+
+l_0xc5cd7f:
+    "@[B8]No quieres?" linebreak
+	"@Lo que t[C4] digas." end
+
+l_0xc5cd97:
+    "{load_registers}@No puedes comprar los pl[C0]tanos si no tienes suficiente dinero." end
+
+l_0xc5cdb3:
+    "@No puedes llevar nada m[C0]s." end
+
+l_0xc5cdc0:
+    "@Gracias, gracias." next
+    eob
+
+l_0xc5cdcc:
+    "@Gracias, gracias." next
+    eob
+
+l_0xc5cdd8:
+    "@Tengo m[C0]s pl[C0]tanos... [B8]Quieres alguno?" linebreak
+    eob
+
+l_0xc5cdf2:
+    "@[1C 02 00] tiene muchas cosas para llevarse un pl[C0]tano." next
+    "@[B8]Alguien m[C0]s lo llevar[C0] por {swap}" call(data_37.l_0xc7e6a4) "?" linebreak
+    eob
+
+l_0xc5ce22:
+    "@[B9]Hola!" next
+    "@[B8]Te gustar[C2]a comprar condimentos que vayan bien con tu alimento?" next
+    "@[B9]Estos no son s[C3]lo tus t[C2]picos condimentos!" next
+    "@Cuando intentes comer algo, el condimento autom[C0]ticamente se espolvorear[C0] en tu comida." next
+	"@[B9]Es casi m[C0]gico!" next
+    eob
+
+l_0xc5cec0:
+    "@Vuelve pronto." end
+
+l_0xc5cec8:
+    "@Vuelve pronto." end
+
+l_0xc5ced0:
+    "@[B8]Qu[C1] querr[C2]as?" next
+    eob
+
+l_0xc5cedc:
+    "@[B8]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]?" next
+    eob
+
+l_0xc5cee4:
+    "@[B8]Para qui[C1]n es?[03]" eob
+
+l_0xc5cef0:
+    "@Vuelve pronto." next
+    eob
+
+l_0xc5cef9:
+    "@Oh, parece que no tienes suficiente dinero." next
+    eob
+

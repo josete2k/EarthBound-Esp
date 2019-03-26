@@ -1,0 +1,402 @@
+/*
+ * EarthBound Text Dump
+ * Time: 21:34:20 - 24/01/2013
+ * Generated using CCScriptWriter.
+ */
+
+import ebs
+import Item_Articles
+import Enemy_Articles
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xef7696:
+    newline
+    "@[B9]No tiene efecto visible en {asmcall_long(PrintLowDefArticleTarget)}{target}!{pause(10)}[03]" eob
+
+l_0xef76b3:
+    newline
+    "@[B9]No funciona en {asmcall_long(PrintLowDefArticleTarget)}{target}!{pause(10)}[03]" eob
+
+l_0xef76c7:
+    newline
+    "{sound(34)}@[B9]Ha fallado!{pause(10)}[03]" eob
+
+l_0xef76d8:
+    newline
+    "{sound(34)}@[B9]Falla por muy poco![03]" linebreak
+	"@[B9]No consigue golpear al objetivo!{pause(10)}[03]" eob
+
+l_0xef76fd:
+    newline
+    "@Pero {asmcall_long(PrintLowDefArticleTarget)}{target} ya no estaba ah[C2]...{pause(10)}[03]" eob
+
+l_0xef7710:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} absorbe sus propios PV!{pause(10)}[03]" eob
+
+l_0xef7729:
+    newline
+    "@[B9]Absorbe {delta} PV de {target}!{pause(10)}[03]" eob
+
+l_0xef773f:
+    newline
+    "@[B9]Absorbe {delta} PP de {target}!{pause(10)}[03]" eob
+
+l_0xef7755:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} pierde {delta} PP!{pause(10)}[03]" eob
+
+l_0xef7768:
+    newline
+    "@[B9]{user} se siente enferm{asmcall_long(PrintGenderedVerbAttacker)} y" linebreak
+	"   sufre {delta}PV de da[C7]o!{pause(10)}[03]" eob
+
+l_0xef7787:
+    newline
+    "@{asmcall_long(PrintCapDefArticleTarget)}{target} nota dolor y" linebreak
+	"  sufre {delta}PV de da[C7]o.{pause(10)}[03]" eob
+
+l_0xef77b1:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} se siente maread{asmcall_long(PrintGenderedVerbTarget)} y d[C1]bil, y sufre {delta}PV de da[C7]o!{pause(10)}[03]" eob
+
+l_0xef77db:
+    newline
+    "@[B9]{asmcall_long(PrintCapDefArticleTarget)}{target} estornuda y" linebreak
+	"   sufre {delta}PV de da[C7]o!{pause(10)}[03]" eob
+
+l_0xef77fd:
+    newline
+    "@{asmcall_long(PrintCapDefArticleTarget)}{target} se ha unido a la batalla.{pause(10)}[03]" eob
+
+l_0xef7810:
+    newline
+    "@{asmcall_long(PrintCapDefArticleTarget)}{target} empieza a crecer.{pause(10)}[03]" eob
+
+l_0xef7824:
+    newline
+    "@Pero no viene nadie.{pause(10)}[03]" eob
+
+l_0xef7830:
+    newline
+    "@Pero la semilla no ha brotado.{pause(10)}[03]" eob
+
+l_0xef7843:
+    "{music(98)}" newline
+    "@El tiempo vuelve a correr.{pause(10)}[03]" eob
+
+l_0xef7858:
+    newline
+    "@[B9]" call(l_0xef790b) " {call(numgen.attack_party)}[14]" eob
+
+l_0xef7866:
+    newline
+    "@[B9]" call(l_0xef790b) " {call(numgen.block_party)} el paso![14]" eob
+
+l_0xef7879:
+    newline
+    "@[B9]" call(l_0xef790b) " {call(numgen.come_party)} hacia ti![14]" eob
+
+l_0xef788b:
+    newline
+    "@[B9]" call(l_0xef790b) " te {call(numgen.trap_party)}[14]" eob
+
+l_0xef789c:
+    "@Te encuentras con " call(l_0xef794b) "[14]" eob
+
+l_0xef78ab:
+    "@Te has topado con " call(l_0xef794b) "[14]" eob
+
+l_0xef78b8:
+    "@Te metes con " call(l_0xef794b) "[14]" eob
+
+l_0xef78c7:
+    "@Te enfrentas a " call(l_0xef794b) "[14]" eob
+
+l_0xef78d8:
+    newline
+    "@[B9]Ahora tienes la oportunidad de empezar con un ataque sorpresa!{pause(10)}[14]" eob
+
+l_0xef78f7:
+    newline
+    "@[B9]" call(l_0xef798f) " {call(numgen.atacan_party)} primero!{pause(10)}[14]" eob
+
+l_0xef790b:
+    "[1C 14 02][09 03 {e(l_0xef792b)} {e(l_0xef792e)} {e(l_0xef793c)}]{asmcall_long(PrintCapIndefArticleAttacker)}{user} y sus colegas" eob
+
+l_0xef792b:
+    "{asmcall_long(PrintCapIndefArticleAttacker)}{user}" eob
+
+l_0xef792e:
+    "{asmcall_long(PrintCapIndefArticleAttacker)}{user} y su colega" eob
+
+l_0xef793c:
+    "{asmcall_long(PrintCapIndefArticleAttacker)}{user} y sus colegas" eob
+
+l_0xef794b:
+    "[1C 14 02][09 03 {e(l_0xef796c)} {e(l_0xef7970)} {e(l_0xef797f)}]{asmcall_long(PrintLowIndefArticleAttacker)}{user} y sus colegas." eob
+
+l_0xef796c:
+    "{asmcall_long(PrintLowIndefArticleAttacker)}{user}." eob
+
+l_0xef7970:
+    "{asmcall_long(PrintLowIndefArticleAttacker)}{user} y su colega." eob
+
+l_0xef797f:
+    "{asmcall_long(PrintLowIndefArticleAttacker)}{user} y sus colegas." eob
+
+l_0xef798f:
+    "[1C 14 02][09 03 {e(l_0xef79b1)} {e(l_0xef79b6)} {e(l_0xef79c6)}]{asmcall_long(PrintCapDefArticleAttacker)}{user} y sus colegas" eob
+
+l_0xef79b1:
+    "{asmcall_long(PrintCapDefArticleAttacker)}{user}" eob
+
+l_0xef79b6:
+    "{asmcall_long(PrintCapDefArticleAttacker)}{user} y su colega" eob
+
+l_0xef79c6:
+    "{asmcall_long(PrintCapDefArticleAttacker)}{user} y sus colegas" eob
+
+l_0xef79d7:
+	"{window_clear}{music(5)}" linebreak
+    "               [1C 08 02]" linebreak  //[B9]GANAS!
+    "{pause(120)}" linebreak
+	goto(l_0xef79e6)
+
+l_0xef79e6:
+    "[1F 41 11][1B 03 {e(l_0xef7a0a)}]" goto(l_0xef79ef)
+
+l_0xef79ef:
+    next
+	linebreak
+    "[18 06]@La experiencia de " call(data_37.l_0xc7e6d7) "" linebreak
+	"  aumenta en {delta}" call(data_65.l_0xef8fad) "{prompt}" eob
+
+l_0xef7a0a:
+    "[19 05 01 06 02]" goto(l_0xef79ef)
+
+l_0xef7a14:
+	"{window_clear}{music(184)}" linebreak
+    "               [1C 08 02]" linebreak  //[B9]GANAS!
+    "{pause(120)}" linebreak
+	goto(l_0xef79e6)
+
+l_0xef7a28:
+	"{window_clear}" linebreak
+    "               [1C 08 02]" linebreak  //[B9]GANAS!
+    "{pause(90)}" linebreak
+    "[18 06]@La experiencia de " call(data_37.l_0xc7e6d7) "" linebreak
+	"  aumenta en {delta}" call(data_65.l_0xef8fad) "{prompt}" eob
+
+l_0xef7a4d:
+    newline
+//    "{pause(10)}{music(7)}@" call(data_37.l_0xc7e6d7) " {call(numgen.perdido_party)} perdido la batalla...{prompt}" eob
+    "{pause(10)}{music(7)}@Todo ha terminado para " call(data_37.l_0xc7e6d7) "{pause(15)}.{pause(15)}.{pause(15)}.{pause(15)}{prompt}" eob
+l_0xef7a66:
+    newline
+    "[18 06]@[B9]El nivel de {target} ahora es {delta}!{prompt}" eob
+
+l_0xef7a7d:
+    newline
+    "@" call(l_0xef7bbf) "[B9]El Ataque sube {delta}!{prompt}" eob
+
+l_0xef7a97:
+    newline
+    "@" call(l_0xef7bbf) "[B9]La Defensa sube {delta}!{prompt}" eob
+
+l_0xef7ab1:
+    newline
+    "@" call(l_0xef7bbf) "[B9]La Velocidad sube {delta}!{prompt}" eob
+
+l_0xef7ac9:
+    newline
+    "@" call(l_0xef7bbf) "[B9]Las Agallas suben {delta}!{prompt}" eob
+
+l_0xef7ae0:
+    newline
+    "@" call(l_0xef7bbf) "[B9]La Vitalidad sube {delta}!{prompt}" eob
+
+l_0xef7afb:
+    newline
+    "@" call(l_0xef7bbf) "[B9]El CI sube {delta}!{prompt}" eob
+
+l_0xef7b11:
+    newline
+    "@" call(l_0xef7bbf) "[B9]La Suerte sube {delta}!{prompt}" eob
+
+l_0xef7b28:
+    newline
+    "@" call(l_0xef7b83) "[B9]Los PV m[C0]ximos suben {delta}!{prompt}" eob
+
+l_0xef7b46:
+    newline
+    "@" call(l_0xef7ba0) "[B9]Los PP m[C0]ximos suben {delta}!{prompt}" eob
+
+l_0xef7b64:
+    newline
+    "{sound(103)}@{target} ha aprendido[19 1F]{swap} [1C 12 00].{prompt}" eob
+
+l_0xef7b83:
+    "{store_registers}[19 1E][18 07 14 00 00 00 00][1B 02 {e(l_0xef7b9d)}][B9]Bien!{pause(15)} " goto(l_0xef7b9d)
+
+l_0xef7b9d:
+    "{load_registers}" eob
+
+l_0xef7ba0:
+    "{store_registers}[19 1E][18 07 08 00 00 00 00][1B 02 {e(l_0xef7bbc)}][B9]Chachi!{pause(15)} " goto(l_0xef7bbc)
+
+l_0xef7bbc:
+    "{load_registers}" eob
+
+l_0xef7bbf:
+    "{store_registers}[19 1E][18 07 03 00 00 00 00][1B 02 {e(l_0xef7bdc)}][B9]Mola!{pause(15)} " goto(l_0xef7bdc)
+
+l_0xef7bdc:
+    "{load_registers}" eob
+
+l_0xef7bdf:
+    newline
+    "[18 06]@[B9]El enemigo ha dejado un regalo!{prompt}" linebreak
+    "{sound(16)}{pause(1)}@A ver qu[C1] hay dentro{pause(15)}.{pause(15)}.{pause(15)}.{pause(15)}[19 1F]{swap}" linebreak
+	"  [B9]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00][1B 00]!{prompt}" linebreak
+    "[1D 03 FF][1B 02 {e(l_0xef7c73)}]{store_registers}" call(data_36.l_0xc7dc85) "[1B 03 {e(l_0xef7c42)}]{load_registers}{swap}@[1C 02 00]{swap} [1B 05][1B 01]{asmcall_long(PrintLowPronoun_ASM)}[1B 06]recoge.[1D 0E 00 00]{sound(116)}{prompt}" eob
+
+l_0xef7c42:
+    "[19 10 01]{swap}" newline
+    "[18 06]@[1C 02 00] a[C7]ade{load_registers} {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00] a {swap}las cosas de [1C 02 00].{swap}[1D 0E 00 00]{sound(116)}{prompt}" eob
+
+l_0xef7c73:
+    "[18 06]@Pero, " call(data_37.l_0xc7e6d7) " no {call(numgen.fail_party)} llevar m[C0]s cosas.{prompt}" linebreak
+    goto(l_0xef7c89)
+
+l_0xef7c89:
+    "[18 06]@[B8]{call(numgen.querer_party)} de algo?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xef7c9e:
+    "  [19 02]No" eob
+
+l_0xef7ca5:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xef7d0f)} {e(l_0xef7cb4)}]" goto(l_0xef7cb4)
+
+l_0xef7cb4:
+    "[19 1F]{swap}[18 06]@[B8]{call(numgen.vas_party)} a dejar {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]?" linebreak
+    "[19 02]S[C2]" eob
+
+l_0xef7cd9:
+    "[19 02]No" eob
+
+l_0xef7cde:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xef7cf8)} {e(l_0xef7ced)}]" goto(l_0xef7ced)
+
+l_0xef7ced:
+    "@Entonces...{prompt}" linebreak
+    goto(l_0xef7c89)
+
+l_0xef7cf8:
+    "[18 06]@" call(data_37.l_0xc7e74e) " {call(numgen.deja_party)}" linebreak
+	"  {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00].{prompt}" eob
+
+l_0xef7d0f:
+    newline
+    "[18 06]@[B8]Qu[C1] {call(numgen.quereis_party)} tirar?{prompt}" call(data_15.l_0xc5e4c3) newline
+    "[1B 02 {e(l_0xef7cb4)}]{store_registers}[19 19 00 00][1D 0B 00][1B 02 {e(l_0xef7dbe)}]{load_registers}[19 19 00 00][18 06]@[B8]{call(numgen.capquereis_party)} tirar {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]?" linebreak
+    "[19 02]Tirar" eob
+
+l_0xef7d61:
+    "[19 02]No hacerlo" eob
+
+l_0xef7d6f:
+    "[1C 07 02][11]{clearline}[09 02 {e(l_0xef7d83)} {e(l_0xef7cb4)}]" goto(l_0xef7cb4)
+
+l_0xef7d83:
+    "{load_registers}[1D 0F 00 00]{swap}[18 06]@[B9][1C 02 00]{swap} tira {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]{swap}[19 1F]{swap}" linebreak
+	"  y se lleva {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00]![1D 0E 00 00]{sound(116)}{pause(10)}[03]" eob
+
+l_0xef7dbe:
+    "[18 06]@No creo que tirar {asmcall_long(PrintLowDefArticle_ASM)}[1C 05 00] sea buena idea.{prompt}" goto(l_0xef7d0f)
+
+l_0xef7dd5:
+    newline
+    "[18 06]@{user} ha visto un regalo detr[C0]s del enemigo." next
+    "{sound(16)}@Dentro del regalo encuentra{pause(15)}.{pause(15)}.{pause(15)}.{pause(15)}[19 1F]{swap}" linebreak
+	"  [B9]{asmcall_long(PrintCapIndefArticle_ASM)}[1C 05 00]!" next
+    "@[1C 02 03] {asmcall_long(PrintLowPronoun_ASM)}[1C 05 00] recoge.[1D 0E 03 00]{sound(116)}{pause(10)}[03]" eob
+
+l_0xef7e25:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} ha hecho que algo gire a su alrededor!{pause(10)}[03]" eob
+
+l_0xef7e3e:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} ha perdido su temperamento!{pause(10)}[03]" eob
+
+l_0xef7e55:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} ha dicho algo desagradable!{sound(84)}{pause(10)}[03]" eob
+
+l_0xef7e70:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} ha hecho un ataque de aspiraci[C3]n!{pause(10)}[03]" eob
+
+l_0xef7e88:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} rellena su tanque combustible!{sound(89)}{pause(10)}[03]" eob
+
+l_0xef7eac:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} muerde usando sus colmillos venenosos!{pause(10)}[03]" eob
+
+l_0xef7ed5:
+    newline
+    "[18 06]{sound(25)}@{asmcall_long(PrintCapDefArticleAttacker)}{user} dispara un misil mare[C0]ndose en el intento.{sound(70)}{pause(10)}[03]" eob
+
+l_0xef7f02:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} comienza un ataque cont[C2]nuo!{pause(10)}[03]" eob
+
+l_0xef7f1e:
+    newline
+    "[18 06]{sound(25)}@{asmcall_long(PrintCapDefArticleAttacker)}{user} est[C0] en guardia.{pause(10)}[03]" eob
+
+l_0xef7f32:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} lanza una bola de fuego!{sound(75)}{pause(10)}[03]" eob
+
+l_0xef7f5a:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} se apresura dentro y se entrelaza contigo!{pause(10)}[03]" eob
+
+l_0xef7f7b:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} ataca con un mordisco demoledor!{pause(10)}[03]" eob
+
+l_0xef7f9a:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} se aferra y utiliza su agarre de sumisi[C3]n!{pause(10)}[03]" eob
+
+l_0xef7fc3:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} se acelera! {pause(10)}[03]" eob
+
+l_0xef7fe0:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} empu[C7]a un cuchillo!{pause(10)}[03]" eob
+
+l_0xef7ffc:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} te ara[C7]a!{pause(10)}[03]" eob
+
+l_0xef8010:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} ataca a mordiscos!{pause(10)}[03]" eob
+
+l_0xef8026:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} ara[C7]a con sus afiladas u[C7]as!{pause(10)}[03]" eob
+
+l_0xef804b:
+    newline
+    "[18 06]{sound(25)}@[B9]{asmcall_long(PrintCapDefArticleAttacker)}{user} balancea su cola con violencia!{pause(10)}[03]" eob
